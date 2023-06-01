@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-06-01T09:32:24.746834971Z",
-  "chain_id": "localnet",
+  "genesis_time": "2023-06-01T10:49:15.454676629Z",
+  "chain_id": "clockend_4200-101",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -300,7 +300,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "black_val",
+                  "moniker": "samael_val",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -316,7 +316,7 @@
                 "validator_address": "blackvaloper1syavy2npfyt9tcncdtsdzf7kny9lh7778wm222",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "Gijb4Xv1Tyar8xxm6+kBIE51Hnv/aOS3S6Lw017vkaY="
+                  "key": "Kt5gg0zMFBM82zYM5odkLrcLKiorOAVEamwFQcdKXFs="
                 },
                 "value": {
                   "denom": "stake",
@@ -324,7 +324,7 @@
                 }
               }
             ],
-            "memo": "3324f6b03b2753e5cad68e08d988a9f6501a3bb0@34.28.75.14:26656",
+            "memo": "05a7b9ce52d8df6d5127004e114898b36e2e91ec@34.122.197.223:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -352,129 +352,7 @@
             }
           },
           "signatures": [
-            "qgjTkeygpo+haK0Hy66t8JlZGfGucBQWlKX1xPGSA8MoFP3rwAX9SI0uGoOGrMh9wwZUs5iamBzFzJCZxZttQw=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "black_val",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1syavy2npfyt9tcncdtsdzf7kny9lh777yxnfe0",
-                "validator_address": "blackvaloper1syavy2npfyt9tcncdtsdzf7kny9lh7778wm222",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "gFRiID4spvifQZkszo3uXSoWvtMJ9ST3I80Z8INaDk0="
-                },
-                "value": {
-                  "denom": "stake",
-                  "amount": "1000000000000000000000000"
-                }
-              }
-            ],
-            "memo": "29720906fbca7a3831b907a459ea87a1d105e2b3@34.122.197.223:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "16P6F3uaygW7Og+Z4L4kiyiZJZ3x6c+k2vVc7xeyowdtvSi60BmERuph4CQBihAAPWyX4sol7f1CgomQxYbWlw=="
-          ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "black_val",
-                  "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
-                },
-                "commission": {
-                  "rate": "0.100000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "black1syavy2npfyt9tcncdtsdzf7kny9lh777yxnfe0",
-                "validator_address": "blackvaloper1syavy2npfyt9tcncdtsdzf7kny9lh7778wm222",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "GTM2BUSYXScSN0ko9E/rBN85MwzJcgXCf4cnrRlyYVY="
-                },
-                "value": {
-                  "denom": "stake",
-                  "amount": "1000000000000000000000000"
-                }
-              }
-            ],
-            "memo": "88ddee240512d4761ac9946acb4e9ee1e4459667@34.135.36.97:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"
-                },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
-                "sequence": "0"
-              }
-            ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
-          },
-          "signatures": [
-            "eaHaT3qIjFhjj6IKNcpe31dWT1Fq4yeSpjRqteaAlJ4DPUM5wpecPy649b9k/ojgSojvKD+V/rNq+vLSz4rqUQ=="
+            "tBZM6kN4xn54LvLtnHeHFUED3PiDf/FucI0NBiiV4HQi46JIFObt5tTllFEHTcpju8jl6Hf3KR1pQSyIUZPYVg=="
           ]
         }
       ]
